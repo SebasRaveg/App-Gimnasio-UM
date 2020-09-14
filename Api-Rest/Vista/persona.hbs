@@ -1,0 +1,25 @@
+<script type="text/javascript"> 
+    //Componente
+    let personaList = document.createElement('ul')
+
+    //Se llama al /api/persona
+    const myHeaders = new Headers();
+    myHeaders.append('authorization', `Bearer ${localStorage.token}`)
+
+    fetch('/api/persona', {
+        method: 'GET',
+        headers: myHeaders 
+    })
+    .then(res => res.json())
+    .then(data => {
+        data.persona.map(persona => {
+            let text = document.createTextNode(persona.Nombre)
+            let elem = document.createElement('li')
+            elem.appendChild(text)
+            personaList.appendChild(elem)
+        })
+
+        document.body.appendChild(personaList) 
+    })
+
+</script>
