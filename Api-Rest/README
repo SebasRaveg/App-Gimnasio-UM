@@ -1,0 +1,5 @@
+Se creara una Api Rest con JWT, donde se implementaran los CRUD de la 
+aplicacion que se desarrollara, Tambien haciendo uso de JWT (Json Web Token)
+El cual funciona como autenticacion para los usuarios que ingresen.
+
+Se tendran varios modelos con los CRUD de la APP.
