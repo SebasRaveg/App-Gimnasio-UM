@@ -5,7 +5,7 @@
 const express = require('express')  
 const personaCtrl = require('../Controladores/persona')
 const usuarioCtrl = require('../Controladores/usuario')
-const auth = require('../middlewares/auth')
+const auth = require('../MiddleWares/auth')
 const api = express.Router()
 
 /* ---------------- PETICIONES ------------------ */
