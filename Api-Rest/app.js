@@ -12,7 +12,7 @@ const bodyParser = require('body-parser')
 const hbs = require('express-handlebars')
 const app = express() 
 const cors = require('cors')
-const api = require('./rutas')
+const api = require('./Rutas')
 
 app.use(cors())
 app.use(bodyParser.urlencoded({extended: false })) //Propiedad MIDDLEWARE

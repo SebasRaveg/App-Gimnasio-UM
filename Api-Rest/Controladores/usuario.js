@@ -1,7 +1,7 @@
 'use strict'
 
-const Usuario = require('../modelo/usuario')
-const servicio = require('../servicios')
+const Usuario = require('../Modelos/usuario')
+const servicio = require('../Servicios')
 
 //Registro y autenticacion de usuarios
 function signUp(req, res) {

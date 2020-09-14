@@ -3,8 +3,8 @@
 'use strict'
 
 const express = require('express')  
-const personaCtrl = require('../controladores/persona')
-const usuarioCtrl = require('../controladores/usuario')
+const personaCtrl = require('../Controladores/persona')
+const usuarioCtrl = require('../Controladores/usuario')
 const auth = require('../middlewares/auth')
 const api = express.Router()
 

@@ -1,6 +1,6 @@
 'use strict'
 
-const servicios = require('../servicios')
+const servicios = require('../Servicios')
 
 // Funcion para comprobar si existe la autenticacion
 function isAuth(req, res, next) {

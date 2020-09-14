@@ -1,6 +1,6 @@
 'use strict'
 
-const Persona = require('../modelo/persona')
+const Persona = require('../Modelos/persona')
 
 //Funcion para la Peticion GET: Devolver todos los Datos
 function getPersonas(req, res){ 
