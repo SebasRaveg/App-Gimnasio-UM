@@ -1,0 +1,29 @@
+Proyecto App Gimnasio UM 
+
+Integrantes del Grupo 
+• Sebastian Rave Gómez 
+• Andrés Eduardo Meza Rueda 
+• Simón Cortes González 
+
+El proyecto que vamos a implementar, será dirigido a los estudiantes, docentes, 
+administrativos, egresados y particulares de la Universidad de Manizales 
+en la parte de solución y mejoramiento del sistema de registro y control 
+del gimnasio. Se desarrollará una aplicación móvil la cual tiene el 
+objetivo de cambiar la manera de registro de las personas y a su vez un 
+control, siendo esta actualmente física, se desarrollará una App donde 
+la persona se debe que registrar con todos los datos que normalmente se 
+requieren físicamente, también el control de ingresos de las personas al 
+gimnasio, al estar la persona registrada en el sistema, la persona se 
+debe que logear cada vez que vaya entrar al gimnasio o generar un código 
+QR para que los monitores puedan registrarlos a la hora que entro o 
+salió, toda esta información se estará guardando en una base de datos 
+para que sea accesible y almacenada. La comunicación de esta aplicación 
+con un Api Rest Node.js y JWT será para el lado de la autenticación del 
+usuario siendo este en el lado del login, ya que podremos tener varios 
+usuarios para que se identifiquen si es estudiante, docente, 
+administrativo, egresado, particular o monitor el cual tendría una 
+función diferente para el control de las personas que salen e ingresan. 
+La comunicación de la aplicación con un Api Rest Java usando lógica de 
+árboles binarios, será para el almacenamiento de esta información y el 
+mantenimiento de esto ya que si se requiere un análisis o modificación 
+de información sea más fácil de acceder.
