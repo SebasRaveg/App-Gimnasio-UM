@@ -31,20 +31,23 @@ function savePersona(req, res){
     
     //Almacenar en la base de datos primer dato
     let persona = new Persona()
-    persona.Foto = req.body.Foto
-    persona.Nombre = req.body.Nombre
-    persona.Apellido = req.body.Nombre
-    persona.Cedula = req.body.Cedula
+    persona.Tipo_de_usuario = req.body.Tipo_de_usuario
+    persona.Tipo_de_Documento = req.body.Tipo_de_Documento
+    persona.Numero_de_Documento = req.body.Numero_de_Documento
+    persona.Nombres = req.body.Nombres
+    persona.Apellidos = req.body.Apellidos
     persona.Edad = req.body.Edad
     persona.Correo = req.body.Correo
-    persona.Carrera = req.body.Carrera
-    persona.Codigo = req.body.Codigo
+    persona.Departamento = req.body.Departamento
     persona.Ciudad = req.body.Ciudad
-    persona.Direccion = req.body.Direccion
     persona.Barrio = req.body.Barrio
+    persona.Direccion = req.body.Direccion
+    persona.Carrera = req.body.Carrera
+    persona.Otra_Carrera = req.body.Otra_Carrera
+    persona.Codigo = req.body.Codigo
     persona.Eps = req.body.Eps
-    persona.Preexistencias_medicas = req.body.Preexistencias_medicas
-    persona.Tipo_de_usuario = req.body.Tipo_de_usuario
+    persona.Pre_existencias_Medicas = req.body.Pre_existencias_Medicas
+    persona.Foto_de_Usuario = req.body.Foto_de_Usuario
 
     persona.save((err, personaAlmacenada) => { // Funcion CallBack (error y almacena estara con un ID unico)
         if (err) res.status(500).send({message: `Error al guardar en la base de datos: ${err}`})
